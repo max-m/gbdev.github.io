@@ -1,0 +1,19 @@
+title: "Game Boy Development Community"
+description: ""
+keywords: "Game Boy, GameBoy, DMG, CGB, GBC, SGB, Nintendo, LR35902, CPU, Opcodes, Instructions"
+
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://gbdev.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github: "https://github.com/gbdev/gbdev.github.io"
+
+encoding: UTF-8
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+
+sass:
+  sass_dir: _sass
+  style: compressed

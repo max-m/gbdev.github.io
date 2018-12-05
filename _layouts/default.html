@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head class="nojs">
+	<title>{{ site.title }}</title>
+	<meta charset='utf-8'/>
+
+	{% if site.description %}<meta name='description' content='{{ site.description }}'/>{% endif %}
+	{% if site.site %}<meta name="keywords" content="{{ site.keywords }}" />{% endif %}
+
+	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'/>
+
+	<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+
+	{% comment %}
+	<link rel="icon" type="image/png" href="{{ "/favicon.png" | relative_url}}" sizes="16x16">
+	<link rel="icon" type="image/png" href="{{ "/favicon-x128.png" | relative_url}}" sizes="128x128">
+	<link rel="apple-touch-icon" sizes="128x128" href="{{ "/favicon-x128.png" | relative_url}}">
+	{% endcomment %}
+
+	<script>document.head.classList.remove('nojs')</script>
+</head>
+<body>
+	{{ content }}
+</body>
+</html>
